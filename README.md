@@ -10,4 +10,4 @@ La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 
 enkripter 2.html:
-detecta mayusculas en la frase intorducida por el usuario.
+detecta mayusculas en la frase introducida por el usuario.
