@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<h1>ENKRIPTER </h1>
+
+<script>
+
+      function imprimir(texto) {
+        document.write(texto);
+        saltarLinea();
+            }
+
+            function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");  
+        document.write("<hr>");    
+        document.write("<br>"); 
+        document.write("<br>"); 
+            }
+
+  var frase = prompt("Ingrese frase");
+  
+
+ function check (frase){
+    let result1=frase.replace("e","enter");
+    let result2=result1.replace("i","imes");
+    let result3=result2.replace("a","ai");
+    let result4=result3.replace("o","ober");
+    let result5=result4.replace("u","ufat");
+    imprimir(result5);    
+ }
+
+ check(frase);
+
+
+
+ 
+  
+</script>

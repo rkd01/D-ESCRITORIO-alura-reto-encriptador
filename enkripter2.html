@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+
+<h1>ENKRIPTER </h1>
+
+<script>
+
+      function imprimir(texto) {
+        document.write(texto);
+        saltarLinea();
+            }
+
+            function saltarLinea() {
+        document.write("<br>");    
+        document.write("<br>");    
+        document.write("<br>");  
+        document.write("<hr>");    
+        document.write("<br>"); 
+        document.write("<br>"); 
+            }
+
+  var parraf = prompt("Ingrese frase");
+
+
+  
+
+function minusc(frase){
+    var encontrado=false;
+ 
+       for (var i=0;i<frase.length;i++){
+        if (frase[i]==frase[i].toUpperCase()){
+            encontrado=true;
+            alert("Actualizar e ingresar frase sin mayusculas");
+                        break; 
+                  
+        }
+        if(encontrado==false){
+            i++;
+        }
+            
+            
+        }
+
+    }
+    
+   minusc(parraf);
+imprimir(parraf);
+
+
+
+
+</script>
